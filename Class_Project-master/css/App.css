@@ -1,0 +1,92 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background{
+    display: flex;
+    flex-direction: row;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 280px;
+}
+body{
+    background-image: url('../Image/XP-HD-Wallpapers-022.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat : no-repeat;
+    overflow: hidden;
+    margin: 0px;
+}
+.cmdicon{
+    height: 100px;
+    width: 100px;
+    background-image: url('../Image/Cmdicon.png');
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+.cmdcover{
+    height: 105px;
+    width: 105px;
+    position: fixed;
+    display: flex;
+    padding-right: 32px;
+}
+.cmdcover:hover{
+    background-color: lightgray;
+    opacity: 0.5;
+}
+.underbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(54, 54, 234);
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.startbar{
+    background-image: url("../Image/xpstart.PNG");
+    background-size: 110px;
+    height: 100px;
+    width: 110px;
+    background-repeat: no-repeat;
+}
+.explorer{
+    background-image: url("../Image/explorericon.png");
+    margin-top: 2px;
+    margin-left: 5px;
+    background-size: 35px;
+    height: 200px;
+    width: 40px;
+    background-repeat: no-repeat;
+}
+
+.explorer:hover{
+    background-color: rgb(75, 75, 233);
+}
+
+.righttask{
+    background-color: rgb(62, 150, 179);;
+    width: 180px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: auto;
+}
+.explorerbtn{
+    height: 100px;
+    width: 100px;
+    background-image: url('../Image/explorericon.png');
+    background-size: cover;
+    background-repeat : no-repeat;
+    margin-top: 110px;
+
+}
+.explorercover:hover{
+    background-color: lightgray;
+    opacity: 0.5;
+}

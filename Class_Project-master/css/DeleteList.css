@@ -1,0 +1,12 @@
+.deletetbar {
+  margin-left:150px;
+  text-align: left;
+}
+
+.deleteselect {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  height: 25px;
+  width:110px;
+  text-align: center;
+}

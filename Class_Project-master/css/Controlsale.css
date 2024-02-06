@@ -1,0 +1,25 @@
+.ControlPage {
+  width: 1000px;
+  height: 500px;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(252, 254, 235);
+  border: 2px solid rgb(54, 54, 234);
+  border-radius: 8px;
+  animation: fade-in 0.57s ease-in-out;
+  text-align: center;
+  overflow: auto;
+}
+
+.selectsec{
+  margin-top: 30px;
+  text-align: left;
+  margin-left:148px;
+}
+
+.selectsec select{
+  width:105px;
+}

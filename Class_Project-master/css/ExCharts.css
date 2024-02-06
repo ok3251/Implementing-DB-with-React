@@ -1,0 +1,44 @@
+.input_field {
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_field input{
+  width: 150px;
+  border: 1px solid gray;
+  height:25px;
+}
+
+.chartbutton{
+  width:150px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  height: 27px;
+  margin-bottom: 5px;
+  background-color: lightsalmon;
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+}
+.table{
+  overflow: auto;
+  height: 200px;
+}
+
+.LineGraph{
+  margin-top: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+
+.datepicker-wrapper {
+  position: absolute;
+  z-index: 1000; /* DatePicker가 다른 요소 위에 표시될 수 있도록 높은 z-index 설정 */
+  /* 다른 스타일링 */
+}

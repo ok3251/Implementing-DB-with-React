@@ -1,0 +1,21 @@
+.ItemBoard table {
+  margin : auto;
+  width:700px;
+  border: 1px solid gray;
+}
+.ItemBoard th, td{
+  border: 1px solid;
+}
+
+.searchselect {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  height: 25px;
+  width:145px;
+  text-align: center;
+}
+
+.selectbar {
+  margin-left:24px;
+  text-align: left;
+}
